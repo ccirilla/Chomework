@@ -1,0 +1,160 @@
+  391  mkdir work1
+  392  cd work1/
+  393  vim main
+  394  ls
+  395  vim main.c
+  396  gcc -E main.c -o main.i
+  397  ls
+  398  vim main.i
+  399  cat main.i
+  400  gcc -S main.i -o main.s
+  401  ls
+  402  cat main.s
+  403  vim main.s
+  404  as main.s -o main.o
+  405  ls
+  406  gcc -o main mian.o
+  407  rm mian.[d-z]
+  408  rm "mian.[d-z]"
+  409  rm mian.i
+  410  gcc -o main main.o
+  411  ls
+  412  ./main
+  413  cd ..
+  414  ls
+  415  mkdir work2
+  416  cd work2
+  417  ls
+  418  vim multi.c
+  419  gcc -fPIC -Wall-c multi.c 
+  420  gcc -fPIC -Wall -c multi.c 
+  421  ls
+  422  gcc -shared -o libmulti.so multi.o
+  423  ls
+  424  sudo cp -i libmulti.so /usr/lib
+  425  ls
+  426  vim main.c
+  427  gcc main.c -lmulti
+  428  ls
+  429  ./a.out 
+  430  rm a.out 
+  431  ls
+  432  sudo rm /usr/lib/libmulti.so
+  433  ls
+  434  ar crsv libmulti.a multi.o
+  435  ls
+  436  cp libmulti.a /usr/lib
+  437  sudo cp libmulti.a /usr/lib
+  438  gcc main -lmulti
+  439  sudo /usr/lib/libmulti.a
+  440  ls /usr/lib
+  441  sudo rm /usr/lib/libmulti.a
+  442  ls /usr/lib
+  443  cat main.c
+  444  ls
+  445  rm multi.o
+  446  ls
+  447  gcc -c multi.c 
+  448  ls
+  449  ar crsv libmulti.a multi.o
+  450  ls
+  451  cp libmulti.a /usr/lib
+  452  sudo cp libmulti.a /usr/lib
+  453  ls
+  454  gcc main.c -lmulti
+  455  ls
+  456  ./a.out 
+  457  sudo rm /usr/lib/libmulti.a
+  458  ls
+  459  rm a.out 
+  460  rm libmulti.*
+  461  ls
+  462  rm multi.*
+  463  gcc -fPIC - Wall -c mian.c
+  464  ls
+  465  gcc -fPIC - Wall -c main.c
+  466  ls
+  467  cat main.c
+  468  vim multi.c
+  469  gcc -fPIC -Wall -c multi.c 
+  470  ls
+  471  gcc -shared -o libmulti.so multi.o
+  472  ls
+  473  mv libmulti.so libmulti.so.1
+  474  ls
+  475  sudo cp libmulti.so.1 /usr/lib
+  476  cd /usr/lib
+  477  ls
+  478  ln -s libmulti.so.1 libmulti.so
+  479  sudo ln -s libmulti.so.1 libmulti.so
+  480  ls
+  481  cat libmulti.so
+  482  XshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshellXshel:q
+  483  cd -
+  484  gcc main.c -lmulti
+  485  ls
+  486  ./a.out 
+  487  cd -
+  488  sudo rm libmulti.so.1
+  489  ls
+  490  cd -
+  491  ./a.out 
+  492  cd -
+  493  su rm libmulti.so
+  494  sudo rm libmulti.so
+  495  ls
+  496  cd -
+  497  ./a.out 
+  498  ls
+  499  cd ..
+  500  mkdir work3
+  501  cd work3
+  502  vim main.c
+  503  gcc mian.c -D DEBUG
+  504  gcc main.c -D DEBUG
+  505  ls
+  506  ./a.out 
+  507  gcc main.c 
+  508  ./a.out 
+  509  vim main.c
+  510  vim ssss.c
+  511  mkdir ssss
+  512  cd ssss
+  513  ls
+  514  vim ssss.h
+  515  cd ..
+  516  ls
+  517  gcc main.c
+  518  gcc main.c -Issss
+  519  cat main.c
+  520  cat ssss.c
+  521  cd ssss
+  522  ls
+  523  cat ssss.h 
+  524  cd ..
+  525  ls
+  526  gcc main.c -Issss
+  527  ls
+  528  vim main.c 
+  529  gcc main.c -Issss
+  530  vim main.c 
+  531  ls
+  532  vim ssss
+  533  vim ssss.c
+  534  cd ssss
+  535  ls
+  536  vim ssss.h 
+  537  cd ..
+  538  ;s
+  539  ls
+  540  gcc main.c -Issss
+  541  gcc ssss.c main.c -Issss
+  542  ls
+  543  ./a.out 
+  544  history 
+  545  cd ..
+  546  ls
+  547  history tail -10
+  548  tail -10 history 
+  549  history |grep history
+  550  history |tail -160 >day3_张富强.txt

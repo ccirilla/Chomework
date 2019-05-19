@@ -1,0 +1,300 @@
+   27  cd 20190409
+   28  mkdir test
+   29  cd test/
+   30  touch file1.c file2.c stdlib.h stdio.h
+   31  mkdir disk1 disk2 disk3
+   32  ls
+   33  find . -name dis*
+   34  find . -name disk[1-3]
+   35  find . -name "disk[1-3]"
+   36  find . -name "dis*"
+   37  find /usr/include/ -name f* -o -tpye -f
+   38  find /usr/include/ -tpye -f
+   39  find /usr/include/ -tpye f
+   40  find /usr/include/ -tyye f
+   41  find /usr/include/ -type f
+   42  find /usr/include/ -type f -a -name a*
+   43  find /usr/include/ -type f -a -name *.h
+   44  find /usr/include/ -type f -a -name h*
+   45  find -empty 
+   46  echo 123 > file1
+   47  find -empty 
+   48  cat file1
+   49  echo 2651651651561561 >>file1
+   50  ls
+   51  echo 45454 > file1.c
+   52  find -empty 
+   53  find -empty |xargs ls -l
+   54  find . -empty |xargs rm -r
+   55  ls
+   56  find . -mmin -2
+   57  find . -mmin -60
+   58  find . -mmin +2
+   59  find . -mmin 60
+   60  find . -mmin -60
+   61  find . -mmin -60 |rm -r
+   62  find . -mmin -60 | rm -r
+   63  ls
+   64  find . -mmin -60 |xargs rm -r
+   65  find . -mmin -60 |xargs rm
+   66  find . -name file* |rm -r
+   67  ls'
+ls
+
+
+
+
+
+sdl
+   68  ls
+   69  sudo apt install vim
+   70  vim
+   71  ls
+   72  cd
+   73  ls -h
+   74  ls -l
+   75  find ./ -size [4096]
+   76  find ./ -size [8]
+   77  find -size 8
+   78  dh M /home 
+   79  dh -M /home 
+   80  df -M /home 
+   81  df -M
+   82  du -M /home
+   83  df
+   84  df -m
+   85  df -g
+   86  df -G
+   87  vim
+   88  du -m
+   89  df -m /home
+   90  clear
+   91  claez
+   92  clear
+   93  ls
+   94  cd homework/
+   95  cd 20190409
+   96  ls
+   97  cd test
+   98  ls
+   99  more The_Holy_Bible.txt 
+  100  ls
+  101  cat > file1
+  102  cat file1
+  103  echo shuai >>file1
+  104  cat file1 
+  105  sort file1
+  106  sort file1 > file2
+  107  cat file2
+  108  sort file1 |uniq
+  109  sort file1 |uniq -c
+  110  sort file1 |uniq -d
+  111  sort file1 |uniq -u
+  112  wc The_Holy_Bible.txt 
+  113  ls
+  114  ls |wc -c
+  115  ls |wc -l
+  116  ls |wc -m
+  117  find . -name God |wc -c
+  118  find . -name god
+  119  find . -name fi* |wc -l 
+  120  find . -name "fi*" |wc -l 
+  121  find . -name "fi*" 
+  122  ls
+  123  grep shuai file1
+  124  head 50 The_Holy_Bible.txt >file3
+  125  head 50 The_Holy_Bible.txt 
+  126  head -50 The_Holy_Bible.txt 
+  127  head -50 The_Holy_Bible.txt >file3
+  128  cat file3
+  129  head -20 The_Holy_Bible.txt >file5
+  130  grep god file5
+  131  grep God file5
+  132  grep -n God file5
+  133  grep ^God file5
+  134  grep ^1 file5
+  135  grep .$ file5
+  136  grep \.$ file5
+  137  cd..
+  138  cd ..
+  139  find size 4c
+  140  ll
+  141  cd test
+  142  ls
+  143  find -size 4c
+  144  find -size 4096c
+  145  ls -h
+  146* ls -l
+  147  find -size -38c
+  148  find -size 38c
+  149  ls -1h
+  150  ls -lh
+  151  ls -l
+  152  ls -lh
+  153  df
+  154  df -h
+  155  ls
+  156  cat file1
+  157  cat -b file1
+  158  cat -E file1
+  159  cat -n file1
+  160  cat -b file1
+  161  du -h
+  162  du
+  163  ls
+  164  du -h
+  165  cd ..
+  166  du -h
+  167  cd test/
+  168  du
+  169  ls -lh
+  170  vim main.c
+  171  cat main.c
+  172  head -3 main.c
+  173  ssh test@192.168.2.100
+  174  ls
+  175  cat main.c
+  176  cd ..
+  177  ls
+  178  ssh test@192.168.2.100
+  179  cd ..
+  180  ls
+  181  mv test man.c
+  182  ls
+  183  mv man.c 20190409/test
+  184  cd 20190409
+  185  ls
+  186  cd test/
+  187  ls
+  188  cat man.c
+  189  clear
+  190  ls
+  191  more The_Holy_Bible.txt 
+  192  ls
+  193  clear
+  194  ls
+  195  cat file1
+  196  sort file1
+  197  sort file1 |uniq -b
+  198  sort file1 |uniq -n
+  199  sort file1 |uniq 
+  200  sort file1 |uniq -c
+  201  wc main.c
+  202  wc man.c
+  203  grep int man.c
+  204  grep ^int man.c
+  205  grep -n ^int man.c
+  206  grep -n \; man.c
+  207  grep pri
+  208  cd ~
+  209  ls
+  210  cd ..
+  211  ls
+  212  pwd
+  213  cd
+  214  vim .bashrc
+  215  ..bashrc
+  216  grep -c int man.c
+  217  grep int man.c
+  218  pwd
+  219  cd homework/20190409/test/
+  220  grep -c int man.c
+  221  grep  int man.c
+  222  grep ^man.c
+  223  grep -F  ^man.c
+  224  ls
+  225  head -20 The_Holy_Bible.txt >file0
+  226  cat file0
+  227  grep god file0
+  228  grep God file0
+  229  grep -c God file0
+  230  grep -n God file0
+  231  clear
+  232  sudo apt install git 
+  233  sudo apt install curl
+  234  cd
+  235  curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  236  ls
+  237  ls -a
+  238  vim .vimrc
+  239  vim
+  240  vim .vimrc
+  241  vim
+  242  sudo apt install build-essential cmake python3-dev
+  243  sudo apt install clang libclang-dev
+  244  cd ~/.vim/plugged/YouCompleteMe
+  245  python3 install.py --clang-completer
+  246  cd
+  247  vim .vimrc
+  248  ssh test@192.168.2.100
+  249  cd homework/20190409
+  250  ls
+  251  tar xzvf day2.tar.gz 
+  252  ls
+  253  cd day2
+  254  ls
+  255  vim main.c 
+  256  ls
+  257  ls |wc -l
+  258  wmask
+  259  umask 
+  260  umask 022
+  261  touch cc
+  262  ls
+  263  ls -l
+  264  chmod 666 cc
+  265  ls -l
+  266  find /usr/include/ -name stdio.h |xargs grep printf
+  267  ls
+  268  head -10 The_Holy_Bible.txt >dd
+  269  cat dd
+  270  ls
+  271  tar cvf day02.tar file*
+  272  rm -r file*
+  273  ls
+  274  tar xvf day02.tar
+  275  tar czvf day002.tar.gz file*
+  276  ls
+  277  rm -r file*
+  278  ls
+  279  rm -r *
+  280  ls
+  281  cd ..
+  282  ls
+  283  rm -r day2
+  284  ls
+  285  gzip vimrc 
+  286  ls
+  287  gzip -d vimrc.gz 
+  288  ls
+  289  cd test
+  290  ls
+  291  tar cvf file.tar file*
+  292  ls
+  293  gzip file.tar 
+  294  ls
+  295  rm -r file[0-5]
+  296  ls
+  297  tar xzvf file.tar.gz 
+  298  ls
+  299  gzip -d file.tar.gz 
+  300  ls
+  301  rm -r file[0-5]
+  302  ls
+  303  tar xvf file.tar 
+  304  ls
+  305  cat file0
+  306  cat file1
+  307  ls
+  308  scp file1 test@192.168.2.100:~
+  309  rm -r *
+  310  ls
+  311  ssh test@192.168.2.100
+  312  ls
+  313  cd ..
+  314  ls
+  315  rm -r *
+  316  ls
+  317  history 
+  318  tail -300 history > day2_张富强.txt
+  319  history |tail -300 > day2_张富强.txt

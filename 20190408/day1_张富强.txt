@@ -1,0 +1,262 @@
+    1  ping www.baidu.com
+    2  sudo apt install ssh
+    3  ping baidu.com
+    4  sudo apt install ssh
+    5  ps -elf|grep ssh
+    6  ifconfig
+    7  ping www.baidu.com
+    8  sudo apt install net-tools
+    9  ls-a /root/home
+   10  su root 
+   11  ls
+   12  sudo useradd -m theshy -s/bin/bash
+   13  ls
+   14  cat /ect/passwd
+   15  cat /etc/passwd
+   16  sudo theshy passwd
+   17  passwd theshy 
+   18  sudo passwd theshy
+   19  ls
+   20  ls /home
+   21  ls -a /home
+   22  ls -l home
+   23  ls -l
+   24  cd /home/zz
+   25  ls
+   26  pwd
+   27  cd ..
+   28  pwd
+   29  cd /
+   30  pwd
+   31  cd ~
+   32  pwd
+   33  cd -
+   34  mkkir 20190408
+   35  mkdir 20190408
+   36  ls
+   37  ls -l
+   38  rmdir 20190408
+   39  ls
+   40  tree
+   41  tree -c
+   42  tree -h
+   43  Desktop
+   44  export PS1="\[\e[37;40m\][\[\e[32;40m\]\u\[\e[37;40m\]@\h \[\e[36;40m\]\w\[\e[0m\]]\\$ "
+   45  la
+   46  pwd
+   47  ls
+   48  ll
+   49  cd ..
+   50  ls
+   51  cd theshy/
+   52  ls
+   53  ll
+   54  tree -h
+   55  pwd
+   56  cd /
+   57  ls
+   58  cd home
+   59  cd theshy/
+   60  ls
+   61  ll
+   62  ls -l
+   63  cd ..
+   64  cd zz
+   65  ls -l
+   66  cd ..
+   67  ls
+   68  sudo  userdel theshy
+   69  cat /ect/passwd
+   70  cat /etc/passwd
+   71  cd home
+   72  cd /home
+   73  ls
+   74  cd theshy/
+   75  ls
+   76  mkdir disk1
+   77  cd home
+   78  cd ..
+   79  ls
+   80  sudo rm -r theshy
+   81  ls
+   82  cd zz/
+   83  ls
+   84  ls -l
+   85  pwd
+   86  ls
+   87  mkdir test
+   88  ls
+   89  rmdir test 
+   90  ls
+   91  mkdir test
+   92  cd test
+   93  ls
+   94  pwd
+   95  madir disk1
+   96  mkdir disk1
+   97  cd disk1/
+   98  touch file1
+   99  echo haha > file1
+  100  file1
+  101  cat /file
+  102  cat /file1
+  103  cat file1
+  104  cd .
+  105  cd ..
+  106  cp /disk1/file1 disk2
+  107  mkdir disk2
+  108  ls
+  109  cp disk1/file1 disk2
+  110  ls -l disk2
+  111  cp disk1/file1 disk3
+  112  ls
+  113  disk3
+  114  ls -l
+  115  ls
+  116  mkdir disk4
+  117  ls
+  118  disk4
+  119  cd disk4
+  120  cp -r ..disk[1-3] disk4
+  121  ls ..disk1
+  122  ls ../disk
+  123  ls ..
+  124  ls .. /disk1
+  125  cd ..
+  126  cp -r  disk[1-3] disk4
+  127  ls
+  128  ls disk4
+  129  rm -r disk3
+  130  ls
+  131  mv disk4 disk8
+  132  ls
+  133  ls disk8
+  134  mv disk8/disk2 disk1
+  135  ls
+  136  ls disk1
+  137  cat disk1/file1
+  138  cat disk8/disk3
+  139  las
+  140  ls
+  141  ls -l
+  142  chmod 777 dis*
+  143  ls -l
+  144  chmod 111 dik*
+  145  chmod 111 dis*
+  146  ls -l
+  147  cd disk1
+  148  ls
+  149  cd ..
+  150  ls disk1
+  151  chmod 777 dis*
+  152  ls dis*
+  153  ls -l *
+  154  ls disk[1-2]
+  155  ls
+  156  chmod 775 dis*
+  157  ls
+  158  du disk8
+  159  du -h disk8
+  160  du ..
+  161  cd ..
+  162  du test
+  163  du -h test/
+  164  ls -h test
+  165  test
+  166  cd test/
+  167  du - h .
+  168  du -h .
+  169  du -h --max-depth=0
+  170  du -h disk8 --max-depth=0
+  171  echo 123 > file
+  172  cat dile
+  173  cat file
+  174  history 
+  175  echo history > file
+  176  cat file 
+  177  history > file
+  178  cat file
+  179  ls
+  180  ll
+  181  ls
+  182  cat file 
+  183  echo sss > file
+  184  cat fiel
+  185  cat file 
+  186  echo skt
+  187  echo asada >> file
+  188  cat file 
+  189  LS
+  190  ls
+  191  mv disk2 disk1
+  192  mv -r disk2 disk1
+  193  ls
+  194  ls disk2
+  195  ls disk1
+  196  ls disk2
+  197  rm -r disk1/disk2
+  198  ls disk1
+  199  mv -r disk2 disk1
+  200  mv disk2 disk1
+  201  ls
+  202  ls dis*
+  203  ls -h d*
+  204  ls -l d*
+  205  tree -h
+  206  ruote
+  207  route
+  208  pwd
+  209  cn ~
+  210  cd ~
+  211  cd test
+  212  ls
+  213  ll
+  214  echo asfioajfaio file8
+  215  touch disk999
+  216  ls
+  217  cat file
+  218  echo disiasda > disk66
+  219  ls
+  220  ls disk[1-67]
+  221  ls disk[1-8]
+  222  ls
+  223  rm file
+  224  ls
+  225  chmod 111 disk66
+  226  ls -l
+  227  chomd 123 disk66
+  228  chmod 123 disk66
+  229  ls
+  230  ls -l
+  231  ll
+  232  chmod 775 disk66
+  233  ls -l
+  234  ls
+  235  history 
+  236  tree
+  237  rm -r dis*
+  238  ls
+  239  tree
+  240  touch day1_张富强.txt
+  241  history > day1_张富强.txt 
+  242  cat day1_张富强.txt 
+  243  cd..
+  244  cd ..
+  245  ls
+  246  Desktop/
+  247  ls
+  248  cd Desktop/
+  249  cd
+  250  cd ..
+  251  mkdir homework
+  252  cd zz
+  253  ls
+  254  mkdir homework
+  255  cd homework/
+  256  mkdir 20190408
+  257  cd 20190408/
+  258  history > day1_张富强
+  259  ls
+  260  rm day1_张富强 
+  261  ls
+  262  history > day1_张富强.txt
