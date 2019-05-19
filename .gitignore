@@ -1,0 +1,6 @@
+## not track this files
+*.o
+*log
+*.a
+*.lib
+*.so
